@@ -6314,7 +6314,9 @@ W = angled&lt;p&gt;
 <part name="R6" library="rcl" deviceset="R-US_" device="0207/10"/>
 <part name="R7" library="rcl" deviceset="R-US_" device="0207/10"/>
 <part name="C1" library="rcl" deviceset="C-EU" device="025-025X050"/>
-<part name="C2" library="rcl" deviceset="C-EU" device="025-025X050"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="025-025X050">
+<attribute name="C" value="100nF"/>
+</part>
 <part name="IC3" library="linear" deviceset="78*" device="TV" technology="05"/>
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
@@ -6343,7 +6345,9 @@ W = angled&lt;p&gt;
 <instance part="R6" gate="G$1" x="71.12" y="76.2" rot="R270"/>
 <instance part="R7" gate="G$1" x="71.12" y="60.96" rot="R270"/>
 <instance part="C1" gate="G$1" x="63.5" y="68.58" rot="R90"/>
-<instance part="C2" gate="G$1" x="45.72" y="55.88" rot="R90"/>
+<instance part="C2" gate="G$1" x="45.72" y="55.88" rot="R90">
+<attribute name="C" x="45.72" y="55.88" size="1.778" layer="96" rot="R90"/>
+</instance>
 <instance part="IC3" gate="A1" x="50.8" y="91.44"/>
 <instance part="SUPPLY1" gate="GND" x="50.8" y="78.74"/>
 <instance part="SUPPLY2" gate="GND" x="71.12" y="53.34"/>
